@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 /* ----------------banner styles----------------- */
 .banner {
@@ -8,7 +9,6 @@ body {
   background-color: #2d25a0;
 }
 .banner h1 {
-  font-family: "Poppins", sans-serif;
   color: white;
   font-size: 64px;
   margin-left: 156px;
@@ -32,4 +32,57 @@ body {
   margin-top: 153px;
   padding-left: 102px;
   padding-bottom: 86px;
+}
+/* players styles */
+.players h1 {
+  font-size: 28px;
+}
+.players p {
+  font-size: 16px;
+  color: lightgray;
+}
+.player-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+}
+.players img {
+  width: 300px;
+  height: 250px;
+  padding-left: 50px;
+}
+.players {
+  border: 1px dotted lightgray;
+  width: 350px;
+  max-height: 500px;
+  margin: 15px;
+  padding: 20px;
+}
+/* extra bits */
+.new-jersey {
+  display: flex;
+
+  background-color: #2d25a0;
+  color: white;
+  font-size: 30px;
+}
+.jersey-pic img {
+  padding-left: 30px;
+  width: 700px;
+}
+.jersey-web {
+  margin-left: 45px;
+}
+.jersey-web a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  font-size: 20px;
+  padding: 10px 25px;
+}
+/* footer  */
+footer img {
+  width: 100px;
+  justify-content: center;
 }
