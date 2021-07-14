@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+/* ----------------banner styles----------------- */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #2d25a0;
+}
+.banner h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 64px;
+  margin-left: 156px;
+  margin-top: 207px;
+}
+.banner a {
+  margin-left: 156px;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-color: #e02c6d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 15px 30px;
+}
+
+.banner-image img {
+  height: 438px;
+  width: 556.01px;
+  margin-top: 153px;
+  padding-left: 102px;
+  padding-bottom: 86px;
+}
