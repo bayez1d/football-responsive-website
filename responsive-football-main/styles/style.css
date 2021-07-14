@@ -32,6 +32,15 @@ body {
   margin-top: 153px;
   padding-left: 102px;
   padding-bottom: 86px;
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+/* banner hover styles */
+.banner-image:hover img {
+  -webkit-transform: rotate(15deg) scale(1.4);
+  transform: rotate(15deg) scale(1.4);
 }
 /* players styles */
 .players h1 {
@@ -70,7 +79,17 @@ body {
 .jersey-pic img {
   padding-left: 30px;
   width: 700px;
+  margin-left: 30px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
+
+.jersey-pic:hover img {
+  margin-left: 0;
+}
+
 .jersey-web {
   margin-left: 45px;
 }
@@ -82,7 +101,14 @@ body {
   padding: 10px 25px;
 }
 /* footer  */
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
 footer img {
   width: 100px;
-  justify-content: center;
+  align-items: center;
+}
+i {
+  color: thistle;
 }
