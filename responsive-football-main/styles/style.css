@@ -21,9 +21,7 @@ body {
   text-decoration: none;
   color: white;
   background-color: #e02c6d;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding: 15px 30px;
+  padding: 10px 25px;
 }
 
 .banner-image img {
@@ -100,15 +98,39 @@ body {
   font-size: 20px;
   padding: 10px 25px;
 }
+/* youtube video  */
+.yt-video {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.yt-header {
+  text-align: center;
+  vertical-align: middle;
+  padding: 70px 0;
+  color: #2d25a0;
+  font-size: 1.5em;
+}
+
 /* footer  */
 footer {
   margin-top: 50px;
   text-align: center;
 }
 footer img {
-  width: 100px;
+  width: 200px;
   align-items: center;
 }
 i {
   color: thistle;
+  width: 50px;
+  transition: 0.3s;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+i:hover {
+  color: #2d25a0;
+  -webkit-transform: scale(1.7);
+  transform: scale(1.7);
 }
